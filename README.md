@@ -5,7 +5,7 @@
 
 Build | Pytest | Unity | [Git Inspector](using github.io option)
 ------|----------|-------|--------------
-![C/C++ CI](Badgelink) | ![Pytest](Badgelink) | ![Unity - Unit Testing](Badgelink) | ![Git Inspector](Badgelink)
+![-](Badgelink) | ![Pytest](Badgelink) | ![Unity - Unit Testing](Badgelink) | ![Git Inspector](Badgelink)
 
 
 
