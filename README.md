@@ -3,9 +3,10 @@
 # SDLC Activity Based Learning
 
 
-Build | Pytest | [Git Inspector](using github.io option)
+Build | Cppcheck | Unity | [Git Inspector](using github.io option)
 ------|----------|-------|--------------
-![C/C++ CI](Badgelink) | ![Pytest](Badgelink) | ![Git Inspector](Badgelink)
+![C/C++ CI](Badgelink) | ![Cppcheck](Badgelink) | ![Unity - Unit Testing](Badgelink) | ![Git Inspector](Badgelink)
+
 
 
 ## Folder Structure
