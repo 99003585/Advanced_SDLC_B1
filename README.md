@@ -2,9 +2,7 @@
 
 # SDLC Activity Based Learning
 
-Visit [Pages for Report -optional](using github.io option)
-
-Build | Pytest | [Git Inspector](using github.io option)
+Build | Pytest | [Git Inspector]
 ------|--------|-------|--------------
 !(Badgelink) | ![Pytest](Badgelink) | ![Git Inspector](Badgelink)
 
