@@ -2,9 +2,10 @@
 
 # SDLC Activity Based Learning
 
-Build | Pytest | [Git Inspector]
-------|--------|-------|--------------
-!(Badgelink) | ![Pytest](Badgelink) | ![Git Inspector](Badgelink)
+
+Build | Pytest | [Git Inspector](using github.io option)
+------|----------|-------|--------------
+![C/C++ CI](Badgelink) | ![Pytest](Badgelink) | ![Git Inspector](Badgelink)
 
 
 ## Folder Structure
