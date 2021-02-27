@@ -1,9 +1,6 @@
-| **Test ID** | **Description** | **Expected I/P** | **Expected O/P** | ** Actual O/P** | ** Type of Test** | |
-| ----------- | --------------- | ---------------- | ---------------- |---------------- | ----------------- 
-| **01** | Check  whether mail is received by faculty,individual,program management | Values are present | Analysis of all values and produce respected outputs| Correct output based on the analysis of all input values| Requirement base | 
-| **02** | | File generated | Send mail | 
-| **03** | | File not generated | No email | 
-| **04** |Newly received mail in inbox | Is in inbox section. | Received | 
-| **05** |Newly received mail in inbox | Is not in inbox section. |Not Received | 
-| **06** |Accessible by student | Is accessible | Mail  will open | 
-| **04** |Accessible by student | Is not accessible. | Mail will not open | 
+| **Test ID** | **Description** | **Expected I/P** | **Expected O/P** | **Type of test case** |
+| ----------- | --------------- | ---------------- | ---------------- | --------------------- |
+| **01** | Enter the numbers in the calculator | User is able to enter numbers in the calculator | It will show the correct numbers entered by the user | Requirement based |
+| **02** | Selecting the operation | User is able to select the different switch cases | It will be able to display the correct operation chosen by the user | Requirement based |
+| **03** | Accuracy | Number of digits allowed to enter in the calculator for any operation | It will be to display the accurate result | Requirement based |
+| **04** | Check if the operations are working fine | User should be able to provide correct operants mentioned in the list. | It will be able to display correct result according to operation chosen | Requirement based |
