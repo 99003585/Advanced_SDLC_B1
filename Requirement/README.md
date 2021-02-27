@@ -10,14 +10,14 @@
    -  The inventor, Herman Hollerith produced the “tabulating machine,” which was used in the 1890 census
 
 # Feasibility Analysis
- # Market Analysis
+  # Market Analysis
  -  Score Analysis Software is used in various fields such as for observing game scores    in  sports, and students marks in educational institutions.
  -  Real statistics Reliability data analysis tool can be used for score analysis.
  -  The benefits of score analysis is that it provides the quality assessment and key demographic analysis to provide a histolic summary of our benefits strategy.
  -  Histograms are used for representing the results.
 
  
-# Technical Analysis
+ # Technical Analysis
  - IBM SPSS statistical analysis tools are mostly used.
  - R (R Foundation for Statistical computing), MATLAB, Microsoft Excel, Minitab
  - IBM SPSS is mostly used analysis tool
@@ -27,46 +27,46 @@
 
 # 4W and 1H
 
- # What:
+  # What:
 
   - The data analysis process, or alternately, data analysis steps, involves gathering all the information, processing it, exploring the data, and using it for visualization.
 
- # Why:
+  # Why:
 
  - Data analysis helps businesses improve their products and services. Can detect the strengths and weaknesses.
 
- # When:
+  # When:
 
   - When a problem with a lot of complex operations and large number of data in unordered format is present.
 
- # Where:
+  # Where:
 
  - Data Scientists and Analysts use data analytics techniques in their research, and businesses also use it to inform their decisions.
 
-# How:
+  # How:
 
  - It is a way of thinking and resolving the problems. Includes setting goals, collecting, cleaning, and analyzing data, then visualizing it.
 
 
 # Detail requirements
-## High Level Requirements:
+## Low Level Requirements:
 
 | **ID** | **Description** |
 | --- | --- |
-| HL1 | Details of each student |		
-| HL2 | Merge all data sheets |
-| HL3 |Perform Class wise data analysis |
-| HL4 | Perform data analysis of each individual |
-| HL5 | Statistical data analysis - Max, Min, Mean, Histogram	|
+| LL1 | Details of each student |		
+| LL2 | Merge all data sheets |
+| LL3 |Perform Class wise data analysis |
+| LL4 | Perform data analysis of each individual |
+| LL5 | Statistical data analysis - Max, Min, Mean, Histogram	|
 
 
 
-##  Low level Requirements:
+##  High level Requirements:
 | **ID** | **Description** |
 | --- | --- |
-| L1 | Marks for each student in every subject | 
-| L2 | Spider chart for student |
-| L3 | Spider chart for overall passed students in respective subjects |
-| L4 | Merged document containing stats and visualization of data |
-| L5 | Email alerts on low marks to student and teacher |
-| L6 |Email alerts on demand |
+| HL1 | Consolidate multiple data sheets  | 
+| HL2 | Data Analysis |
+| HL3 | Data Visualization |
+| HL4 | Module Statistics |
+| HL5 | Generate Automail to the respected stakeholders |
+
