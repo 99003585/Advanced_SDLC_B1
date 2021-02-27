@@ -1,11 +1,14 @@
-# Student Score Sheet Analyzer
-# Requirements
+# STUDENT SCORESHEET ANALYZER
+
+# REQUIREMENTS
+
+  
  # Introduction
  - Data merging is the process of combining two or more data sets into a single data set.  Most often, this process is necessary when you have raw data stored in multiple files, worksheets, or data tables, that you want to analyze all in one go.The purpose of data Analysis is to extract useful information from data and take the decision based upon the data analysis.
-   # Need
+   # Need :
 - Mark or score analysis which is used as measuring scale,to analyse score or marks.
 - Email generators are ready to receive e-mail. This page works completely automatically. Email generators  will show all incoming mails immediately.
-   # HISTORY: 
+   # History: 
    -  In 1880, prior to computers, it took over seven years for the U.S. Census Bureau to process the collected information and complete a final report. 
    -  The inventor, Herman Hollerith produced the “tabulating machine,” which was used in the 1890 census
 
@@ -17,7 +20,7 @@
  -  Histograms are used for representing the results.
 
  
- # Technical Analysis
+  # Technical Analysis
  - IBM SPSS statistical analysis tools are mostly used.
  - R (R Foundation for Statistical computing), MATLAB, Microsoft Excel, Minitab
  - IBM SPSS is mostly used analysis tool
