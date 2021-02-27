@@ -77,5 +77,5 @@
 | HL5 | Generate Automail to the respected stakeholders |
 
 # GANTT CHART
-![GANTT CHART](https://github.com/99003585/Advanced_SDLC_B1/blob/main/Requirement/swot.png)
+![GANTT CHART](https://github.com/99003585/Advanced_SDLC_B1/blob/main/Requirement/Gantt%20Chart.png)
 
