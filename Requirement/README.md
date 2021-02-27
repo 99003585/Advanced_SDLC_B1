@@ -1,75 +1,35 @@
-<<<<Head
+<<<<<<< HEAD
 
-STUDENT SCORE SHEET ANALYSING
-
-NEED:
- 
-1.INTRODUCTION
-
-      .Data merging is the process of combining two or more data sets into a single data set.  Most often, this process is necessary when you have raw data stored in multiple   files, worksheets, or data tables, that you want to analyze all in one go.The purpose of data Analysis is to extract useful information from data and taking the decision based upon the data analysis.
-
-        .Mark or score analysis which is used as measuring scale,to analyse score or marks.
-
-       .Email generator is ready to receive e-mail. This page works completely automatically.Email generator  will show all incoming mails immediately.
-
-HISTORY
-
-     .In 1880, prior to computers, it took over seven years for the U.S. Census Bureau to process the collected information and complete a final report. 
-
-      .The inventor, Herman Hollerith produced the “tabulating machine,” which was used in the 1890 census
-
-
-2.Feasibility Analysis:
-   
-  Market Feasibility Analysis
-
-    *  Score Analysis Software is used in various fields such as for observing game scores    in  sports, and students marks in educational institutions.
-
-    *  Real statistics Reliability data analysis tool can be used for score analysis
-
-    *  The benefits of score analysis is that it provides the quality assessment and key demographic analysis to provide a histolic summary of our benefits strategy.
-
-    *  Histograms are used for representing the results.
-
-Technical Feasibility
-
-      
-    *  IBM SPSS statistical analysis tools are mostly used.
-    *  R (R Foundation for Statistical computing), MATLAB, Microsoft Excel, Minitab
-    *  IBM SPSS is mostly used analystic tool 
-     
-
-
-Research
-![Description](https://www.google.com/search?client=firefox-b-d&q=in+which+year+data+analysis+found to Pic) -- Content
-
-Cost and Features
-![Description](Link to Pic) -- Content
-
-Defining Our System
--- TBD
-SWOT ANALYSIS
-![SWOT-Sample](Link to Pic)
-
-4W's and 1'H
-Who:
-TBD
-
-What:
-TBD
-
-When:
-TBD
-
-Where:
-TBD
-
-How:
-TBD
-
-Detail requirements
-High Level Requirements:
---- TBD in Tabular Format -- ID | Description | Status (Implemented/Future)
-
-Low level Requirements:
---- TBD in Tabular Format -- ID | Description | Status (Implemented/Future)
+Data Merge and Analysis
+Requirements
+Need
+Introduction
+Data Merging and analysis is used to manipulate data and display visual representation of the statistical analysis performed.
+Marks or score analysis is not only carried out in educational institutions as a metric for evaluation but also in other places where keeping a score is relevant.
+E-mailers are used to update concerned people by triggering e-mails after successful completion of the required manipulation.
+HISTORY:
+The history of data analytics goes as far as the 19th century.
+The measurement of assembly lines by Henry Ford was also designed based on the analytics.
+In the 1960s, the field of data analytics went through huge development as Computers started evovling as decision-making support systems.
+In recent times, after the introduction of Big Data, Data analytics now includes research, discovery and interpretatation of patterns within data.
+TRENDS:
+Gather hidden insights.
+Generate reports.
+Perform Market Analysis.
+Improve Business requirements
+Feasibility Analysis
+Market Analysis
+Score Analysis can be performed to visualize methods of how a range of scores can be projected.
+Score Analysis Software are used in educational institutions, Banking institutions and even in Sports.
+The price for statistical analysis tools can go all the way up to 2 Crores in depending on the users and number of features.
+Well known statistical analysis tools such as IBM SPSS Statistics starts from 3 Lakhs and can go all way up to 17 Lakhs.
+Stat soft’s product Statistica also prices from 1.25 Lakhs to 2 Lakhs.
+The cheapest of the best tools comes around to 6,000 dollars a year.
+Reference - https://www.jigsawacademy.com/pricing-for-analytical-tools-in-india/
+Technical Analysis
+All statistical analytical tools are developed within an organization and released for commercial use.
+The statistical Analysis tool developed by IBM is considered the best.
+Pandas is used for the analysis and manipulation of data since Python’s in-built library statistics cannot be relied for huge datasets.
+Matplotlib is used for the visualization of manipulated data.
+Plotly is used for data representation after manipulation.
+smtplib and email are used to send e-mails to the stakeholders.
