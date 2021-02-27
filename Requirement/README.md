@@ -32,19 +32,22 @@
 
   ## What:
 
-  - The data analysis process, or alternately, data analysis steps, involves gathering all the information, processing it, exploring the data, and using it for visualization.
+  - As the process of analyzing raw data to find trends and answer questions, the definition of data analytics captures its broad scope of the field.It refers to the process of    examining datasets to draw conclusions about the information they contain and enables us  to take raw data,uncover patterns to extract valuable insights from it.
 
   ## Why:
 
- - Data analysis helps businesses improve their products and services. Can detect the strengths and weaknesses.
+ - Data analytics helps organizations harness their data and use it to identify new opportunities. That, in turn, leads to smarter business moves, more efficient operations, higher  profits and happier customers
 
   ## When:
 
-  - When a problem with a lot of complex operations and large number of data in unordered format is present.
+  - Data analytics is used when there is a large number of problems to be solved.
+
 
   ## Where:
 
- - Data Scientists and Analysts use data analytics techniques in their research, and businesses also use it to inform their decisions.
+ -Data analytics is used when there is a large number of problems to be solved.
+ 
+
 
   ## How:
 
