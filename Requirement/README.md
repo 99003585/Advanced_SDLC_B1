@@ -32,7 +32,7 @@
  - Plotly is used for data representation after manipulation. 
  - smtplib and email are used to send e-mails to the stakeholders.
 ## SWOT ANALYSIS
-![SWOT](swot.png)
+![SWOT](https://github.com/99003585/Advanced_SDLC_B1/blob/main/Requirement/swot.png)
 
 # 4W and 1H
 
