@@ -1,9 +1,9 @@
 
---- REQUIREMENTS AND PLANNING
+##STUDENT SCORE SHEET ANALYSING
 
-NEED:
+##NEED:
  
-INTRODUCTION
+##INTRODUCTION
 
  .Data merging is the process of combining two or more data sets into a single data set.  Most often, this process is necessary when you have raw data stored in multiple files, worksheets, or data tables, that you want to analyze all in one go.The purpose of data Analysis is to extract useful information from data and taking the decision based upon the data analysis.
 
@@ -35,6 +35,7 @@ Technical Feasibility
       
     *  IBM SPSS statistical analysis tools are mostly used.
     *  R (R Foundation for Statistical computing), MATLAB, Microsoft Excel, Minitab
+    *  IBM SPSS is mostly used analystic tool 
      
 
 
