@@ -32,8 +32,8 @@ PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 
 ## Challenges Faced and How Was It Overcome
 
-1. ABC
-2. BCD
+1. In Test plan  and code implementation and through reference it had resaolved
+2. In  requirementks 
 3. ...
 4. ...
 
