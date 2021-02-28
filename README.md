@@ -26,10 +26,16 @@ Folder             | Description
 
 PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
-99003530 | Adharsha Mohan R  | Feature A, B etc    | X No     | X No   |X No   |X No     
-99003543 | Aiswarya P S  | Feature C, D etc    | X No     | X No   |X No   |X No  
-99003585 | Theres Mary Jose  | Feature C, D etc    | X No     | X No   |X No   |X No 
+99003530 | Adharsha Mohan R  | Feature Requirements,Test plan, code, Feasibility etc    | 2    | 2   |X No   |X No     
+99003543 | Aiswarya P S  | Feature Test plan, code, UML doagrams, Market Analysis etc    | 3   | 2   |X No   |X No  
+99003585 | Theres Mary Jose  | Feature UML diagrams, Test plan, code, Requirements, Feasibility etc    | 3    | 2   |X No   |X No 
 
+## Challenges Faced and How Was It Overcome
+
+1. ABC
+2. BCD
+3. ...
+4. ...
 
 ## Learning Resources
 1. [markdownCheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
