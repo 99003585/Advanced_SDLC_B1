@@ -30,12 +30,6 @@ PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 99003543 | Aiswarya P S  | Feature C, D etc    | X No     | X No   |X No   |X No  
 99003585 | Theres Mary Jose  | Feature C, D etc    | X No     | X No   |X No   |X No 
 
-## Challenges Faced and How Was It Overcome
-
-1. ABC
-2. BCD
-3. ...
-4. ...
 
 ## Learning Resources
 1. [markdownCheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
