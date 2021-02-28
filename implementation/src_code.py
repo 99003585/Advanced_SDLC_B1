@@ -13,6 +13,7 @@ for i in list_of_rows:
   for j in i:
     f.write(str(j).strip()+",")
   mod1= pd.read_csv('InputFolder/Module1.csv'', delimiter=',')  
+   temp_rows=[list(row) for row in mod2.values]
   if i[0] in subPhy.values:
     temp_rows= [list(row) for row in mod1.values]
     for row in temp_rows:
@@ -35,6 +36,7 @@ for i in list_of_rows:
   mod3 = pd.read_csv('InputFolder/Module3.csv', delimiter=',')  
   if i[0] in mod3.values:
     temp_rows= [list(row) for row in mod3.values]
+    temp_rows=[list(row) for row in mod2.values]
     for row in temp_rows:
       if i[0] in row:
         t=temp_rows.index(row)
@@ -45,9 +47,11 @@ for i in list_of_rows:
   mod4 = pd.read_csv('InputFolder/Module4.csv', delimiter=',')  
   if i[0] in mod4.values:
     temp_rows= [list(row) for row in mod4.values]
+    temp_rows=[list(row) for row in mod2.values]
     for row in temp_rows:
       if i[0] in row:
         t=temp_rows.index(row)
+        temp_rows=[list(row) for row in mod2.values]
         break
     f.write(str(mod4.values[t][3])+",")
   else:
@@ -57,10 +61,12 @@ f.close()
 for file in os.listdir(filePath):
     #print(file)
     filepath = os.path.join(desktop, filePath, file)
+     temp_rows=[list(row) for row in mod2.values]
     new_df = pd.read_csv(filepath, header=0)
     dfList.append(new_df)
 
-mergedDF= df = pd.concat(dfList).reset_index()
+mergedDF= df = pd.concat(dfList).reset_index
+temp_rows=[list(row) for row in mod2.values]
 mergedDF.to_csv(os.path.join(outfilePath, "Output.csv"))
 print(mergedDF.Name.nunique())
 
