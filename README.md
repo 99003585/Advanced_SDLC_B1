@@ -5,7 +5,7 @@
 
 Build | Pytest | Unity | [Git Inspector](using github.io option)
 ------|----------|-------|--------------
-![-](Badgelink) | ![Pytest](Badgelink) | ![Unity - Unit Testing](Badgelink) | ![Git Inspector](Badgelink) | .github/workflows/python-app.yml |
+![-](Badgelink) | ![Pytest](Badgelink) | ![Unity - Unit Testing](Badgelink) | ![Git Inspector](Badgelink) |
 
 
 
