@@ -22,7 +22,7 @@ Folder             | Description
 PS No. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
 99003530 | Adharsha Mohan R  | Feature A, B etc    | X No     | X No   |X No   |X No     
-99003543 | Aishwarya P S  | Feature C, D etc    | X No     | X No   |X No   |X No  
+99003543 | Aiswarya P S  | Feature C, D etc    | X No     | X No   |X No   |X No  
 99003585 | Theres Mary Jose  | Feature C, D etc    | X No     | X No   |X No   |X No 
 
 ## Challenges Faced and How Was It Overcome
