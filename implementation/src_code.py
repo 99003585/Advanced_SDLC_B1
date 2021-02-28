@@ -8,14 +8,10 @@ filePath = os.path.join(desktop, "ScriptTestFolder", "InputFolder")
 outfilePath = os.path.join(desktop, "ScriptTestFolder")
 
 dfList = []
-
-# Create a dataframe from csv
-df = pd.read_csv('InputFolder/Module1.csv',)
-# User list comprehension to create a list of lists from Dataframe rows
 list_of_rows = [list(row) for row in df.values]
 # print(df)
 f = open("results/studentMarks.csv", "w")
-f.write("studentID,studentNAME,studentEMAIL,Module1,Module2,Module3,Average\n")
+f.write("ID,NAME,EMAIL,Module1,Module2,Module3,Average\n")
 for i in list_of_rows:
   # print(i)
   for j in i:
@@ -33,48 +29,36 @@ for i in list_of_rows:
   else: 
     f.write("NA,")
 
-  subChe = pd.read_csv('dataset/Mod.csv', delimiter=',')  
-  if i[0] in subChe.values:
-    temp_rows= [list(row) for row in subChe.values]
+  mod2 = pd.read_csv('InputFolder/Module2.csv', delimiter=',')  
+  if i[0] in mod2.values:
+    temp_rows= [list(row) for row in mod2.values]
     for row in temp_rows:
       if i[0] in row:
         t=temp_rows.index(row)
         break
-    f.write(str(subChe.values[t][3])+",")
+    f.write(str(mod2.values[t][3])+",")
   else:
     f.write("NA,")
 
-  subBio = pd.read_csv('dataset/Biology.csv', delimiter=',')  
-  if i[0] in subBio.values:
-    temp_rows= [list(row) for row in subBio.values]
+  mod3 = pd.read_csv('InputFolder/Module3.csv', delimiter=',')  
+  if i[0] in mod3.values:
+    temp_rows= [list(row) for row in mod3.values]
     for row in temp_rows:
       if i[0] in row:
         t=temp_rows.index(row)
         break
-    f.write(str(subBio.values[t][3])+",")
+    f.write(str(mod3.values[t][3])+",")
   else:
     f.write("NA,")
   
-  subMat = pd.read_csv('dataset/Maths.csv', delimiter=',')  
-  if i[0] in subMat.values:
-    temp_rows= [list(row) for row in subMat.values]
+  mod4 = pd.read_csv('InputFolder/Module4.csv', delimiter=',')  
+  if i[0] in mod4.values:
+    temp_rows= [list(row) for row in mod4.values]
     for row in temp_rows:
       if i[0] in row:
         t=temp_rows.index(row)
         break
-    f.write(str(subMat.values[t][3])+",")
-  else:
-    f.write("NA,")
-
-
-  subPy = pd.read_csv('dataset/Python.csv', delimiter=',')  
-  if i[0] in subPy.values:
-    temp_rows= [list(row) for row in subPy.values]
-    for row in temp_rows:
-      if i[0] in row:
-        t=temp_rows.index(row)
-        break
-    f.write(str(subPy.values[t][3])+",")
+    f.write(str(mod4.values[t][3])+",")
   else:
     f.write("NA,")
     
@@ -87,9 +71,8 @@ for file in os.listdir(filePath):
     filepath = os.path.join(desktop, filePath, file)
     new_df = pd.read_csv(filepath, header=0)
     dfList.append(new_df)
-#
+
 mergedDF= df = pd.concat(dfList).reset_index()
-#
 mergedDF.to_csv(os.path.join(outfilePath, "Output.csv"))
 
 print(mergedDF.Name.nunique())
